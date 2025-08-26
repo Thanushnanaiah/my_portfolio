@@ -3,7 +3,8 @@
   <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="![Uploading Screenshot 2025-08-26 185348.png…]()
+" />
 </div>
 
 <br/>
