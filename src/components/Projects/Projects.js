@@ -50,6 +50,26 @@ function Projects() {
               ghLink="https://github.com/Thanushnanaiah/AI-driven-Data-cleaning-and-manipulation"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Jarvis"
+              description="Designed and implemented an intelligent Python-based voice assistant leveraging SpeechRecognition and pyttsx3, capable of executing hands-free tasks such as application launches, web browsing, information retrieval, and media control. The solution streamlined routine operations, reduced manual effort, and improved overall productivity by approximately 30%."
+              ghLink="https://github.com/Thanushnanaiah/jarvis"
+            />
+          </Col>
+
+                    <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Chatbot on College"
+              description="Developed an AI-powered chatbot designed to address FAQs related to admissions, academics, and campus life. Leveraged natural language processing to deliver instant and accurate responses, improving information accessibility and reducing manual query handling. The system enhanced stakeholder engagement and boosted information retrieval efficiency by approximately 25%, ensuring timely support for prospective students and campus visitors."
+              ghLink=""
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
