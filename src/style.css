@@ -742,13 +742,13 @@ button:focus {
   display: none !important;
 }
 .my_img {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
-  position: relative;   /* changed from absolute */
-  margin: 20px;         /* spacing from top-left */
-  object-fit: cover;
+  position: relative;   /* keep scrolling behavior */
+  margin: 15px;
+  object-position: top center; /* keeps head centered */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-  display: block;       /* ensures proper flow */
+  display: block;
+  background-color: #fff; /* fills empty space if image doesn't cover fully */
 }
-
