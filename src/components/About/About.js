@@ -17,8 +17,8 @@ function About() {
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
+              paddingTop: "50px",
+              paddingBottom: "100px",
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
